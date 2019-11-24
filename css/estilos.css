@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-image: url("../img/banner.jpg");
+}
+
+#Menu{
+	margin: 0;
+	
+	font-size: 18pt;
+	font-style: bold;
+}
+
+a:hover{
+	background-color: orange;
+}
+
+
+.logo{
+	top:12%;
+	left:1%;
+	height: 190px;
+	width: 150px;
+	
+}
+
+#fila{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
