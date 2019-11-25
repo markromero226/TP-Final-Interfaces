@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<HTML>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="contacto">
+<!-- Menu -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark" id="Menu">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Tienda</a>
+        </li>
+        <li class="nav-item  active">
+            <a class="nav-link" href="#">Contacto</a>
+        </li>
+    </ul>
+</nav>
+<div class="row">
+    <div class="col-3">
+<img src="img/logo.png" class="logo">
+    </div>
+
+<div class="col">
+<div class="container">
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+
+            <h2 class="w3-wide">Envianos tus comentarios</h2>
+    <form method="post" class="">
+        <div class="row">
+            <div class="col">
+                <label >Nombre</label>
+                <input type="text" class="form-control"  name="firstname" placeholder="" required>
+            </div>
+            <div class="col">
+                <label for="pass">Apellido</label>
+                <input type="password" class="form-control"  name="lastname" placeholder="" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label >Telefono</label>
+                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"class="form-control"  required>
+            </div>
+            <div class="col">
+                <label for="pass">Email</label>
+                <input type="email" class="form-control" id="pass" name="pass" placeholder="Contraseña" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label >Selecciona Plan</label>
+                <select class="select-css">
+                    <option value="">Elige un plan</option>
+                    <option value="">Familiar</option>
+                    <option value="">Empresarial</option>
+                    <option value="">etc</option>
+                    <option value="">etc</option>
+                </select>
+            </div>
+            <div class="col">
+                <label >Selecciona Couch</label>
+                <select class="select-css">
+                    <option value="">Elige un Coach</option>
+                    <option value="1">carlos...</option>
+                    <option value="2">Maria....</option>
+                    <option value="etc">etc</option>
+                    <option value="etc1">etc</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label >Dejanos Tu Mensaje</label>
+                <br>
+                <textarea name="textarea" rows="10" cols="50" placeholder="Escribe aqui..."></textarea>
+            </div>
+        </div>
+        <br>
+        <input id="enviar" name="enviar" type="submit" class="btn btn-primary" value="Enviar">
+        <input type="reset" class="btn btn-primary" value="Cancelar">
+
+    </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
