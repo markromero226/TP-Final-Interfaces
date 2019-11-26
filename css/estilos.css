@@ -1,45 +1,71 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .principal{
+   margin: 0;
+   padding: 0;
    background-image: url("../img/banner.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+   
 }
 .contacto{
 	background-color:#D7D7D7;
 	
 }
 #Menu{
-	margin: 0;
-	
-	font-size: 18pt;
+	font-size: 15pt;
 	font-style: bold;
+
 }
 
-a:hover{
-	background-color: orange;
+#col-sm-4{
+	
+	max-width: 500px;
+	margin-top: 4%;
+	margin-left: 19%;
 }
 
+#c{
+	margin-left: 265px;
+}
 
 .logo{
 	top:12%;
 	left:1%;
 	height: 190px;
 	width: 150px;
-	
 }
 
 #fila{
 	display: flex;
 	justify-content: center;
+
 }
+
 form{
 	background-color:#6AA6CC;
 	padding: .8em .3em .8em .9em;
 	border-radius: 2em;
 	
 }
+
+.texto{
+	font-style: semi-bold;
+	font-size: 15pt;
+	display: flex;
+	justify-content: center;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
 .select-css {
 	display: block;
 	font-size: 16px;
@@ -80,8 +106,22 @@ form{
 	font-weight:normal;
 }
 
+#contenedor-f{
+	width: 1000px;
+}
 
 
+@media (max-width:490px){
+
+}
+
+@media (max-width:960px){
+
+}
+
+@media (max-width:1280px){
+
+}
 
 
 
