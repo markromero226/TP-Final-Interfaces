@@ -61,7 +61,7 @@ div button {
 }
 
 a{
-	color: white;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -123,6 +123,11 @@ a:hover{
 	outline: none;
 	resize: none;
     border: 1px solid grey;
+}
+
+img #imagen-p{
+	width: 200px;
+	height: 200px;
 }
 	
 
